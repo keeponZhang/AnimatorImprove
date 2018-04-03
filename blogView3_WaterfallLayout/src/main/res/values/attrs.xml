@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WaterfallLayout">
+        <attr name="numColumns" format="integer" />
+        <attr name="hSpace" format="integer" />
+        <attr name="vSpace" format="integer" />
+    </declare-styleable>
+
+</resources>
