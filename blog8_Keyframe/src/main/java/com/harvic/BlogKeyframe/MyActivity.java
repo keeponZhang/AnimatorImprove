@@ -26,9 +26,9 @@ public class MyActivity extends Activity {
             public void onClick(View v) {
 //                doOfFloatAnim();
 //                doInterpolatorAnim();
-//                doMyTvAnim();
-                doAnswerAnim();
-//                doBellRingAnim();
+//                   doMyTvAnim();
+//               doAnswerAnim();
+                doBellRingAnim();
             }
         });
     }
@@ -77,6 +77,7 @@ public class MyActivity extends Activity {
      * 二.4 Keyframe之ofObject
      */
     private void doMyTvAnim() {
+        //keyFrame是封装ofObject,下面的PropertyValuesHolder需要设置TypeEvaluator
         Keyframe frame0 = Keyframe.ofObject(0f, new Character('A'));
         Keyframe frame1 = Keyframe.ofObject(0.1f, new Character('L'));
         Keyframe frame2 = Keyframe.ofObject(1, new Character('Z'));
@@ -94,11 +95,14 @@ public class MyActivity extends Activity {
      * 二.5、疑问：如果没有设置进度为0或者进度为1时的关键帧，展示是怎样的？
      */
     private void doAnswerAnim() {
-//        Keyframe frame0 = Keyframe.ofFloat(0f, 0);
+	    // 当没有第0帧时，动画从最近的一个帧开始。
+	    //        Keyframe frame0 = Keyframe.ofFloat(0f, 0);
         Keyframe frame1 = Keyframe.ofFloat(0.5f, 100f);
-        Keyframe frame2 = Keyframe.ofFloat(0.7f,50f);
-//        Keyframe frame2 = Keyframe.ofFloat(1,0);
-        PropertyValuesHolder frameHolder = PropertyValuesHolder.ofKeyframe("rotation",/* frame0,*/frame1,frame2);
+       Keyframe frame2 = Keyframe.ofFloat(0.7f,50f);
+        // 去掉了结束帧，所以将frame2做为结束帧
+//     Keyframe frame2 = Keyframe.ofFloat(1,0);
+        //至少要有两个帧才行
+        PropertyValuesHolder frameHolder = PropertyValuesHolder.ofKeyframe("rotation",frame1,frame2);
 
         Animator animator = ObjectAnimator.ofPropertyValuesHolder(mImage, frameHolder);
         animator.setDuration(3000);
@@ -166,6 +170,7 @@ public class MyActivity extends Activity {
         /**
          * 构建动画
          */
+//	    这也是ObjectAnimator中唯一一个能实现多动画同时播放的方法
         Animator animator = ObjectAnimator.ofPropertyValuesHolder(mImage, frameHolder1,frameHolder2,frameHolder3);
         animator.setDuration(1000);
         animator.start();

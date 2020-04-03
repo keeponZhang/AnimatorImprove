@@ -90,7 +90,7 @@ public class ListAdapter extends BaseAdapter {
             View view = mListView.getChildAt(i);
             view.clearAnimation();
         }
-        //然后给当前item添加上动画
+        //然后给当前item添加上动画(这样实例化最后一个时会有动画)
         if (isScrollDown) {
             convertView.startAnimation(animation);
         }

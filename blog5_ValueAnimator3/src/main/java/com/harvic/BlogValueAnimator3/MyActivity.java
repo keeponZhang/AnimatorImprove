@@ -38,7 +38,7 @@ public class MyActivity extends Activity {
                 /**
                  * 一.2 自定义加速器
                  */
-//                doMyInterpolatorAnim();
+//               doMyInterpolatorAnim();
                 /**
                  * 二.3.1 简单实现MyEvalutor
                  */
@@ -50,7 +50,7 @@ public class MyActivity extends Activity {
                 /**
                  * 二.4.1 使用ArgbEvalutor
                  */
-                  doColorAnimation();
+                 doColorAnimation();
 
             }
         });
@@ -74,7 +74,7 @@ public class MyActivity extends Activity {
      * 一.1 使用插值器
      */
     private void doInterpolatorAnim(){
-        ValueAnimator animator = ValueAnimator.ofInt(0,600);
+        ValueAnimator animator = ValueAnimator.ofInt(0,300);
 
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
@@ -93,7 +93,7 @@ public class MyActivity extends Activity {
      * 一.2 自定义加速器
      */
     private void doMyInterpolatorAnim(){
-        ValueAnimator animator = ValueAnimator.ofInt(0,600);
+        ValueAnimator animator = ValueAnimator.ofInt(0,300);
 
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
@@ -111,7 +111,7 @@ public class MyActivity extends Activity {
      * 二.3.1 简单实现MyEvalutor
      */
     private void doMyEvaluator(){
-        ValueAnimator animator = ValueAnimator.ofInt(0,400);
+        ValueAnimator animator = ValueAnimator.ofInt(0,300);
 
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override

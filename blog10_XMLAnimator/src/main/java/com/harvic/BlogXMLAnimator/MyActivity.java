@@ -27,8 +27,8 @@ public class MyActivity extends Activity {
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                valueAnimator();
-//                objectAnimator();
+//               valueAnimator();
+//              objectAnimator();
 //                colorAnimator();
                 setAnimator();
             }

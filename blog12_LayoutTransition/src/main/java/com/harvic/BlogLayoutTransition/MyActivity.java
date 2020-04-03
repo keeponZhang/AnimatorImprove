@@ -40,6 +40,7 @@ public class MyActivity extends Activity implements View.OnClickListener{
         /**
          * LayoutTransition.CHANGE_APPEARING动画
          */
+//        LayoutTransition.CHANGE_APPEARING和LayoutTransition.CHANGE_DISAPPEARING必须使用PropertyValuesHolder所构造的动画才会有效果，不然无效！也就是说使用ObjectAnimator构造的动画，在这里是不会有效果的！
         PropertyValuesHolder pvhLeft = PropertyValuesHolder.ofInt("left",0,100,0);
         PropertyValuesHolder pvhTop = PropertyValuesHolder.ofInt("top",1,1);
         //必须第一个值与最后一值相同才会有效果,不然没有效果
@@ -53,6 +54,7 @@ public class MyActivity extends Activity implements View.OnClickListener{
          * LayoutTransition.CHANGE_DISAPPEARING动画
          */
         PropertyValuesHolder outLeft = PropertyValuesHolder.ofInt("left",0,0);
+//        ofFloat中的参数值，第一个值和最后一个值必须相同，不然此属性所对应的的动画将被放弃，在此属性值上将不会有效果；
         PropertyValuesHolder outTop = PropertyValuesHolder.ofInt("top",0,0);
 
         Keyframe frame0 = Keyframe.ofFloat(0f, 0);
@@ -68,7 +70,7 @@ public class MyActivity extends Activity implements View.OnClickListener{
         Keyframe frame10 = Keyframe.ofFloat(1, 0);
         PropertyValuesHolder mPropertyValuesHolder = PropertyValuesHolder.ofKeyframe("rotation",frame0,frame1,frame2,frame3,frame4,frame5,frame6,frame7,frame8,frame9,frame10);
 
-        ObjectAnimator mObjectAnimatorChangeDisAppearing = ObjectAnimator.ofPropertyValuesHolder(this, outLeft,outTop,mPropertyValuesHolder);
+        ObjectAnimator mObjectAnimatorChangeDisAppearing = ObjectAnimator.ofPropertyValuesHolder(this,mPropertyValuesHolder);
         mTransitioner.setAnimator(LayoutTransition.CHANGE_DISAPPEARING, mObjectAnimatorChangeDisAppearing);
 
         //设置单个item间的动画间隔

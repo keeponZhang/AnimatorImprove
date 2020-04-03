@@ -1,18 +1,13 @@
 package com.harvic.BlogLayoutAnimation;
 
-import android.animation.LayoutTransition;
 import android.app.Activity;
-import android.content.pm.ResolveInfo;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.view.animation.BounceInterpolator;
 import android.view.animation.LayoutAnimationController;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -53,12 +48,12 @@ public class MyActivity extends Activity {
          * 通过代码来实现layouAnimation,到main.xml中打开对应的代码
          */
         //代码设置通过加载XML动画设置文件来创建一个Animation对象；
-//        Animation animation= AnimationUtils.loadAnimation(this,R.anim.slide_in_left);   //得到一个LayoutAnimationController对象；
-//        LayoutAnimationController controller = new LayoutAnimationController(animation);   //设置控件显示的顺序；
-//        controller.setOrder(LayoutAnimationController.ORDER_REVERSE);   //设置控件显示间隔时间；
-//        controller.setDelay(0.3f);   //为ListView设置LayoutAnimationController属性；
-//        mListView.setLayoutAnimation(controller);
-//        mListView.startLayoutAnimation();
+        Animation animation= AnimationUtils.loadAnimation(this,R.anim.slide_in_left);   //得到一个LayoutAnimationController对象；
+        LayoutAnimationController controller = new LayoutAnimationController(animation);   //设置控件显示的顺序；
+        controller.setOrder(LayoutAnimationController.ORDER_REVERSE);   //设置控件显示间隔时间；
+        controller.setDelay(0.3f);   //为ListView设置LayoutAnimationController属性；
+        mListView.setLayoutAnimation(controller);
+        mListView.startLayoutAnimation();
     }
 
 

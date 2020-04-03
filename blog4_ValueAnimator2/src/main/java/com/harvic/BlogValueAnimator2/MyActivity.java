@@ -1,11 +1,11 @@
 package com.harvic.BlogValueAnimator2;
 
-import android.animation.*;
+import android.animation.Animator;
+import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.view.animation.LinearInterpolator;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -43,7 +43,7 @@ public class MyActivity extends Activity {
                  */
                 repeatAnimator = doRepeatAnim2();
                 ValueAnimator newAnimator = repeatAnimator.clone();
-                newAnimator.setStartDelay(10000);
+                newAnimator.setStartDelay(2000);
                 newAnimator.start();
             }
         });
@@ -77,6 +77,7 @@ public class MyActivity extends Activity {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 int curValue = (int)animation.getAnimatedValue();
+                Log.e("TAG", "onAnimationUpdate:" + curValue);
                 tv.layout(tv.getLeft(),curValue,tv.getRight(),curValue+tv.getHeight());
             }
         });

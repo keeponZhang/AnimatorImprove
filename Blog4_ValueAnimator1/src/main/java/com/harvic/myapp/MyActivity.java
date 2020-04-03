@@ -1,11 +1,10 @@
 package com.harvic.myapp;
 
-import android.animation.*;
+import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.view.animation.LinearInterpolator;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -28,11 +27,11 @@ public class MyActivity extends Activity {
                 /**
                  * 二、ValueAnimator简单使用之实例使用ValueAnimator
                  */
-//                doAnimation();
+                doAnimation();
                 /**
                  * 三、常用方法之1:ofInt与ofFloat
                  */
-                doOfFloatAnimation();
+//                doOfFloatAnimation();
 
             }
         });
@@ -51,17 +50,26 @@ public class MyActivity extends Activity {
      * 二、1.ValueAnimator简单使用
      */
     private void doAnimation(){
-        ValueAnimator animator = ValueAnimator.ofInt(0,400);
+        ValueAnimator animator = ValueAnimator.ofInt(0,150);
         animator.setDuration(1000);
 
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 int curValue = (int)animation.getAnimatedValue();
+                Log.e("TAG", "onAnimationUpdate: "+curValue);
                 tv.layout(curValue,curValue,curValue+tv.getWidth(),curValue+tv.getHeight());
             }
         });
         animator.start();
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+        if(hasFocus){
+            Log.e("TAG", "onWindowFocusChanged: " + btnStart.getMeasuredHeight() + " :" + btnStart.getMeasuredWidth());
+        }
     }
 
     /**

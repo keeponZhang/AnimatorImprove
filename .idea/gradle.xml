@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Blog1_Harvic_animation_demo" />
+            <option value="$PROJECT_DIR$/Blog1_tryAlpha_xml" />
+            <option value="$PROJECT_DIR$/Blog2_alpha_try_interpolator" />
+            <option value="$PROJECT_DIR$/Blog2_rotate_try_interpolator" />
+            <option value="$PROJECT_DIR$/Blog2_scale_try_interpolator" />
+            <option value="$PROJECT_DIR$/Blog2_translate_try_interpolator" />
+            <option value="$PROJECT_DIR$/Blog3_animation" />
+            <option value="$PROJECT_DIR$/Blog4_ValueAnimator1" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/blog10_AnimatorSetDemo" />
+            <option value="$PROJECT_DIR$/blog10_XMLAnimator" />
+            <option value="$PROJECT_DIR$/blog11_GridAnimationJava" />
+            <option value="$PROJECT_DIR$/blog11_GrideAnimation" />
+            <option value="$PROJECT_DIR$/blog11_LayoutAnimation" />
+            <option value="$PROJECT_DIR$/blog12_AnimateLayoutChanges" />
+            <option value="$PROJECT_DIR$/blog12_LayoutTransition" />
+            <option value="$PROJECT_DIR$/blog13_ListItemBtmIn" />
+            <option value="$PROJECT_DIR$/blog4_Blog4_try_tween_anim_click" />
+            <option value="$PROJECT_DIR$/blog4_ValueAnimator2" />
+            <option value="$PROJECT_DIR$/blog5_ValueAnimator3" />
+            <option value="$PROJECT_DIR$/blog6_ValueAnimator4" />
+            <option value="$PROJECT_DIR$/blog7_ObjectAnimator1" />
+            <option value="$PROJECT_DIR$/blog8_Keyframe" />
+            <option value="$PROJECT_DIR$/blog8_PropertyValuesHolder" />
+            <option value="$PROJECT_DIR$/blog9_AnimatorSet1" />
+            <option value="$PROJECT_DIR$/blogView3_WaterfallLayout" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
