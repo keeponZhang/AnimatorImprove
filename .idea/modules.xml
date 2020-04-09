@@ -2,33 +2,33 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AnimatorImprove.iml" filepath="$PROJECT_DIR$/AnimatorImprove.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Blog1_Harvic_animation_demo/Blog1_Harvic_animation_demo.iml" filepath="$PROJECT_DIR$/Blog1_Harvic_animation_demo/Blog1_Harvic_animation_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Blog1_tryAlpha_xml/Blog1_tryAlpha_xml.iml" filepath="$PROJECT_DIR$/Blog1_tryAlpha_xml/Blog1_tryAlpha_xml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Blog2_alpha_try_interpolator/Blog2_alpha_try_interpolator.iml" filepath="$PROJECT_DIR$/Blog2_alpha_try_interpolator/Blog2_alpha_try_interpolator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Blog2_rotate_try_interpolator/Blog2_rotate_try_interpolator.iml" filepath="$PROJECT_DIR$/Blog2_rotate_try_interpolator/Blog2_rotate_try_interpolator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Blog2_scale_try_interpolator/Blog2_scale_try_interpolator.iml" filepath="$PROJECT_DIR$/Blog2_scale_try_interpolator/Blog2_scale_try_interpolator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Blog2_translate_try_interpolator/Blog2_translate_try_interpolator.iml" filepath="$PROJECT_DIR$/Blog2_translate_try_interpolator/Blog2_translate_try_interpolator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Blog3_animation/Blog3_animation.iml" filepath="$PROJECT_DIR$/Blog3_animation/Blog3_animation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Blog4_ValueAnimator1/Blog4_ValueAnimator1.iml" filepath="$PROJECT_DIR$/Blog4_ValueAnimator1/Blog4_ValueAnimator1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog10_AnimatorSetDemo/blog10_AnimatorSetDemo.iml" filepath="$PROJECT_DIR$/blog10_AnimatorSetDemo/blog10_AnimatorSetDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog10_XMLAnimator/blog10_XMLAnimator.iml" filepath="$PROJECT_DIR$/blog10_XMLAnimator/blog10_XMLAnimator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog11_GridAnimationJava/blog11_GridAnimationJava.iml" filepath="$PROJECT_DIR$/blog11_GridAnimationJava/blog11_GridAnimationJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog11_GrideAnimation/blog11_GrideAnimation.iml" filepath="$PROJECT_DIR$/blog11_GrideAnimation/blog11_GrideAnimation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog11_LayoutAnimation/blog11_LayoutAnimation.iml" filepath="$PROJECT_DIR$/blog11_LayoutAnimation/blog11_LayoutAnimation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog12_AnimateLayoutChanges/blog12_AnimateLayoutChanges.iml" filepath="$PROJECT_DIR$/blog12_AnimateLayoutChanges/blog12_AnimateLayoutChanges.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog12_LayoutTransition/blog12_LayoutTransition.iml" filepath="$PROJECT_DIR$/blog12_LayoutTransition/blog12_LayoutTransition.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog13_ListItemBtmIn/blog13_ListItemBtmIn.iml" filepath="$PROJECT_DIR$/blog13_ListItemBtmIn/blog13_ListItemBtmIn.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog4_Blog4_try_tween_anim_click/blog4_Blog4_try_tween_anim_click.iml" filepath="$PROJECT_DIR$/blog4_Blog4_try_tween_anim_click/blog4_Blog4_try_tween_anim_click.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog4_ValueAnimator2/blog4_ValueAnimator2.iml" filepath="$PROJECT_DIR$/blog4_ValueAnimator2/blog4_ValueAnimator2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog5_ValueAnimator3/blog5_ValueAnimator3.iml" filepath="$PROJECT_DIR$/blog5_ValueAnimator3/blog5_ValueAnimator3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog6_ValueAnimator4/blog6_ValueAnimator4.iml" filepath="$PROJECT_DIR$/blog6_ValueAnimator4/blog6_ValueAnimator4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog7_ObjectAnimator1/blog7_ObjectAnimator1.iml" filepath="$PROJECT_DIR$/blog7_ObjectAnimator1/blog7_ObjectAnimator1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog8_Keyframe/blog8_Keyframe.iml" filepath="$PROJECT_DIR$/blog8_Keyframe/blog8_Keyframe.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog8_PropertyValuesHolder/blog8_PropertyValuesHolder.iml" filepath="$PROJECT_DIR$/blog8_PropertyValuesHolder/blog8_PropertyValuesHolder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog9_AnimatorSet1/blog9_AnimatorSet1.iml" filepath="$PROJECT_DIR$/blog9_AnimatorSet1/blog9_AnimatorSet1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blogView3_WaterfallLayout/blogView3_WaterfallLayout.iml" filepath="$PROJECT_DIR$/blogView3_WaterfallLayout/blogView3_WaterfallLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AnimatorImprove.iml" filepath="$PROJECT_DIR$/AnimatorImprove.iml" group="AnimatorImprove" />
+      <module fileurl="file://$PROJECT_DIR$/Blog1_Harvic_animation_demo/Blog1_Harvic_animation_demo.iml" filepath="$PROJECT_DIR$/Blog1_Harvic_animation_demo/Blog1_Harvic_animation_demo.iml" group="AnimatorImprove/Blog1_Harvic_animation_demo" />
+      <module fileurl="file://$PROJECT_DIR$/Blog1_tryAlpha_xml/Blog1_tryAlpha_xml.iml" filepath="$PROJECT_DIR$/Blog1_tryAlpha_xml/Blog1_tryAlpha_xml.iml" group="AnimatorImprove/Blog1_tryAlpha_xml" />
+      <module fileurl="file://$PROJECT_DIR$/Blog2_alpha_try_interpolator/Blog2_alpha_try_interpolator.iml" filepath="$PROJECT_DIR$/Blog2_alpha_try_interpolator/Blog2_alpha_try_interpolator.iml" group="AnimatorImprove/Blog2_alpha_try_interpolator" />
+      <module fileurl="file://$PROJECT_DIR$/Blog2_rotate_try_interpolator/Blog2_rotate_try_interpolator.iml" filepath="$PROJECT_DIR$/Blog2_rotate_try_interpolator/Blog2_rotate_try_interpolator.iml" group="AnimatorImprove/Blog2_rotate_try_interpolator" />
+      <module fileurl="file://$PROJECT_DIR$/Blog2_scale_try_interpolator/Blog2_scale_try_interpolator.iml" filepath="$PROJECT_DIR$/Blog2_scale_try_interpolator/Blog2_scale_try_interpolator.iml" group="AnimatorImprove/Blog2_scale_try_interpolator" />
+      <module fileurl="file://$PROJECT_DIR$/Blog2_translate_try_interpolator/Blog2_translate_try_interpolator.iml" filepath="$PROJECT_DIR$/Blog2_translate_try_interpolator/Blog2_translate_try_interpolator.iml" group="AnimatorImprove/Blog2_translate_try_interpolator" />
+      <module fileurl="file://$PROJECT_DIR$/Blog3_animation/Blog3_animation.iml" filepath="$PROJECT_DIR$/Blog3_animation/Blog3_animation.iml" group="AnimatorImprove/Blog3_animation" />
+      <module fileurl="file://$PROJECT_DIR$/Blog4_ValueAnimator1/Blog4_ValueAnimator1.iml" filepath="$PROJECT_DIR$/Blog4_ValueAnimator1/Blog4_ValueAnimator1.iml" group="AnimatorImprove/Blog4_ValueAnimator1" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AnimatorImprove/app" />
+      <module fileurl="file://$PROJECT_DIR$/blog10_AnimatorSetDemo/blog10_AnimatorSetDemo.iml" filepath="$PROJECT_DIR$/blog10_AnimatorSetDemo/blog10_AnimatorSetDemo.iml" group="AnimatorImprove/blog10_AnimatorSetDemo" />
+      <module fileurl="file://$PROJECT_DIR$/blog10_XMLAnimator/blog10_XMLAnimator.iml" filepath="$PROJECT_DIR$/blog10_XMLAnimator/blog10_XMLAnimator.iml" group="AnimatorImprove/blog10_XMLAnimator" />
+      <module fileurl="file://$PROJECT_DIR$/blog11_GridAnimationJava/blog11_GridAnimationJava.iml" filepath="$PROJECT_DIR$/blog11_GridAnimationJava/blog11_GridAnimationJava.iml" group="AnimatorImprove/blog11_GridAnimationJava" />
+      <module fileurl="file://$PROJECT_DIR$/blog11_GrideAnimation/blog11_GrideAnimation.iml" filepath="$PROJECT_DIR$/blog11_GrideAnimation/blog11_GrideAnimation.iml" group="AnimatorImprove/blog11_GrideAnimation" />
+      <module fileurl="file://$PROJECT_DIR$/blog11_LayoutAnimation/blog11_LayoutAnimation.iml" filepath="$PROJECT_DIR$/blog11_LayoutAnimation/blog11_LayoutAnimation.iml" group="AnimatorImprove/blog11_LayoutAnimation" />
+      <module fileurl="file://$PROJECT_DIR$/blog12_AnimateLayoutChanges/blog12_AnimateLayoutChanges.iml" filepath="$PROJECT_DIR$/blog12_AnimateLayoutChanges/blog12_AnimateLayoutChanges.iml" group="AnimatorImprove/blog12_AnimateLayoutChanges" />
+      <module fileurl="file://$PROJECT_DIR$/blog12_LayoutTransition/blog12_LayoutTransition.iml" filepath="$PROJECT_DIR$/blog12_LayoutTransition/blog12_LayoutTransition.iml" group="AnimatorImprove/blog12_LayoutTransition" />
+      <module fileurl="file://$PROJECT_DIR$/blog13_ListItemBtmIn/blog13_ListItemBtmIn.iml" filepath="$PROJECT_DIR$/blog13_ListItemBtmIn/blog13_ListItemBtmIn.iml" group="AnimatorImprove/blog13_ListItemBtmIn" />
+      <module fileurl="file://$PROJECT_DIR$/blog4_Blog4_try_tween_anim_click/blog4_Blog4_try_tween_anim_click.iml" filepath="$PROJECT_DIR$/blog4_Blog4_try_tween_anim_click/blog4_Blog4_try_tween_anim_click.iml" group="AnimatorImprove/blog4_Blog4_try_tween_anim_click" />
+      <module fileurl="file://$PROJECT_DIR$/blog4_ValueAnimator2/blog4_ValueAnimator2.iml" filepath="$PROJECT_DIR$/blog4_ValueAnimator2/blog4_ValueAnimator2.iml" group="AnimatorImprove/blog4_ValueAnimator2" />
+      <module fileurl="file://$PROJECT_DIR$/blog5_ValueAnimator3/blog5_ValueAnimator3.iml" filepath="$PROJECT_DIR$/blog5_ValueAnimator3/blog5_ValueAnimator3.iml" group="AnimatorImprove/blog5_ValueAnimator3" />
+      <module fileurl="file://$PROJECT_DIR$/blog6_ValueAnimator4/blog6_ValueAnimator4.iml" filepath="$PROJECT_DIR$/blog6_ValueAnimator4/blog6_ValueAnimator4.iml" group="AnimatorImprove/blog6_ValueAnimator4" />
+      <module fileurl="file://$PROJECT_DIR$/blog7_ObjectAnimator1/blog7_ObjectAnimator1.iml" filepath="$PROJECT_DIR$/blog7_ObjectAnimator1/blog7_ObjectAnimator1.iml" group="AnimatorImprove/blog7_ObjectAnimator1" />
+      <module fileurl="file://$PROJECT_DIR$/blog8_Keyframe/blog8_Keyframe.iml" filepath="$PROJECT_DIR$/blog8_Keyframe/blog8_Keyframe.iml" group="AnimatorImprove/blog8_Keyframe" />
+      <module fileurl="file://$PROJECT_DIR$/blog8_PropertyValuesHolder/blog8_PropertyValuesHolder.iml" filepath="$PROJECT_DIR$/blog8_PropertyValuesHolder/blog8_PropertyValuesHolder.iml" group="AnimatorImprove/blog8_PropertyValuesHolder" />
+      <module fileurl="file://$PROJECT_DIR$/blog9_AnimatorSet1/blog9_AnimatorSet1.iml" filepath="$PROJECT_DIR$/blog9_AnimatorSet1/blog9_AnimatorSet1.iml" group="AnimatorImprove/blog9_AnimatorSet1" />
+      <module fileurl="file://$PROJECT_DIR$/blogView3_WaterfallLayout/blogView3_WaterfallLayout.iml" filepath="$PROJECT_DIR$/blogView3_WaterfallLayout/blogView3_WaterfallLayout.iml" group="AnimatorImprove/blogView3_WaterfallLayout" />
     </modules>
   </component>
 </project>
